@@ -29,11 +29,6 @@
   justify-content: flex-end;
 }
 
-li { 
-  display: table-cell; 
-  position: relative; 
-  padding: 15px 0;
-}
 
 
 .jumbotron {
@@ -4328,9 +4323,7 @@ input[type="button"].btn-block {
 .nav-link:hover,
 .nav-link:focus {
   text-decoration: none;
-  font-weight: bolder;
-  color: #e52328!important
- 
+  color: #e52328 !important
 }
 .nav-link.disabled {
   color: #6c757d;
