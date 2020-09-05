@@ -54,7 +54,7 @@
 } */
 
 .footer {
-  background-color: #2e348b !important;
+  background-color: #1a1b92 !important;
   color: darkgray;
   font-size: 12px;
 }
@@ -105,12 +105,12 @@
 }
 
 .blue {
-  color: #2e348b;
+  color: #1a1b92;
   text-align: center;
 }
 
 .blue1 {
-  color: #2e348b;
+  color: #1a1b92
 }
 
 .logo img {
@@ -124,6 +124,20 @@
   z-index: 10;
 }
 
+/* .purple{
+  background-color: #cac9c8
+} */
+.red{
+  color: #e40b2b;
+  background-color: #b51f2b
+}
+.white{
+  color: white;
+  line-height: 2.2rem
+}
+.team{
+  background-color: #f5f5f5
+}
 .logo {
   padding: 4rem;
 }
@@ -205,6 +219,7 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 
 @-ms-viewport {
@@ -227,7 +242,7 @@ section {
 body {
 
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2;
@@ -254,7 +269,7 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-
+  font-weight: bolder;
   margin-bottom: 0.5rem;
 }
 
@@ -583,7 +598,7 @@ h6,
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
 }
 
@@ -743,20 +758,29 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .container {
     max-width: 540px;
   }
+  h2{
+    font-size: 1.5rem
+  }
+ .display-3{
+   font-size: 3rem
+ }
 }
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
+
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+
+
 }
 @media (min-width: 1200px) {
   .container {
@@ -4315,7 +4339,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-weight: 500;
+  font-weight: bolder;
   font-size: 0.9rem !important
   
   
@@ -4477,6 +4501,7 @@ input[type="button"].btn-block {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+
 }
 
 .navbar-toggler {
@@ -9676,7 +9701,7 @@ a.text-dark:focus {
 
 body {
   background: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -9701,7 +9726,7 @@ h5 {
   color: #000;
   
   /* line-height: 1.5; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 900;
 }
 
@@ -9807,7 +9832,7 @@ header .navbar {
   padding-bottom: 0;
   background: none !important;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 @media (max-width: 1199.98px) {
   header .navbar {
