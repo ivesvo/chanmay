@@ -12,13 +12,18 @@
   flex-direction: column;
 }
 
-
-
+.control{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.about-us{
+  background-color:white
+}
 .intro {
   display: flex;
   align-items: flex-end;
-  /* vertical-align: text-bottom !important;
-  justify-content: flex-end; */
   padding-top: 100px;
   flex-wrap: wrap;
   padding-bottom: 50px;
@@ -38,6 +43,7 @@
 
 .mission {
   /* background-color: #2e348b; */
+  padding-top: 5vh;
   min-height: 15vh;
   display: flex;
   flex-direction: row;
@@ -98,8 +104,9 @@
   display: flex;
   justify-content: center;
 }
+
 .brands {
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
 }
@@ -117,6 +124,7 @@
   margin-bottom: 20px;
 }
 
+
 .about {
   display: flex;
   flex-direction: column;
@@ -124,9 +132,10 @@
   z-index: 10;
 }
 
-/* .purple{
-  background-color: #cac9c8
-} */
+.mission li:hover{
+  color: #b51f2b;
+  font-weight: bolder
+}
 .red{
   color: #e40b2b;
   background-color: #b51f2b
@@ -139,7 +148,7 @@
   background-color: #f5f5f5
 }
 .logo {
-  padding: 4rem;
+ padding: 1.2rem
 }
 
 .hehe1 {
@@ -153,10 +162,70 @@ h1 {
   color: #222e5a !important;
   font-size: 60px;
 }
-/* .carousel-inner > .carousel-item > img {
-  width: auto;
+.meta-text{
+  text-align: justify;
+  padding: 20px 20px;
+  transition: all 0.3s ease 0s;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(153, 153, 153, 0.13)
+}
+
+.play-button{
+  display:flex;
+  justify-content: center;
   height: 100vh;
-} */
+  background-image: url("src/poster.jpg");
+}
+
+#videoBG {
+  position:fixed;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+      width:100%;
+      height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoBG { 
+      width:auto;
+      height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #videoBG {
+      display:none;
+      
+  }
+  .control{
+      background: url("src/poster.jpg")!important;
+      background-size: cover !important;
+  }
+
+  .about-us .img-loaded{
+    width: 50vw;
+    height: auto;
+    margin: 20px;
+  }
+
+  .brands img{
+    width: 25vw;
+    height: auto
+  }
+
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section{
+    padding: 0rem 2rem
+  }
+ 
+}
+
 
 @media only screen and (max-width: 600px) {
   .navbar-brand img {
@@ -213,8 +282,7 @@ h1 {
 }
 
 html {
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.15;
+  font-family: 'Roboto', sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
@@ -242,7 +310,7 @@ section {
 body {
 
   margin: 0;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2;
@@ -767,6 +835,10 @@ pre code {
   }
  .display-3{
    font-size: 3rem
+ }
+ .mission img{
+   width: 30vw;
+   height: auto
  }
 }
 @media (min-width: 768px) {
@@ -9701,7 +9773,7 @@ a.text-dark:focus {
 
 body {
   background: #fff;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -9726,7 +9798,7 @@ h5 {
   color: #000;
   
   /* line-height: 1.5; */
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 900;
 }
 
@@ -9832,7 +9904,7 @@ header .navbar {
   padding-bottom: 0;
   background: none !important;
   position: relative;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 1199.98px) {
   header .navbar {
@@ -10261,6 +10333,7 @@ header .search-form .form-control {
 
 .section {
   padding: 3.5em 2em;
+  z-index: -1
 }
 
 .section-subscribe {
