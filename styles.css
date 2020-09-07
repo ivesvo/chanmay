@@ -84,7 +84,7 @@ body{
 color: #e52328
 }
 .footer {
-  background-color: #1a1b92 !important;
+  background-color: #1a1a92 !important;
   color: darkgray;
   font-size: 12px;
 }
@@ -204,7 +204,7 @@ h1 {
   display: flex;
   justify-content: center;
   height: 100vh;
-  background-image: url("src/poster.jpg");
+  background-image: url("src/energy.jpg");
 }
 
 #videoBG {
@@ -228,7 +228,7 @@ h1 {
     display: none;
   }
   .control {
-    background: url("src/poster.jpg") !important;
+    background: url("https://images.unsplash.com/photo-1528606589862-7d68b7e3c95a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80") !important;
     background-size: cover !important;
   
   }
@@ -271,7 +271,7 @@ h1 {
   .control h1{
     display: block;
     color: white !important;
-    padding: 44px;
+    padding: 50px;
     align-self: flex-end;
     letter-spacing: 1.5px !important
   }
