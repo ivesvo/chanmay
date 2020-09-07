@@ -35,6 +35,7 @@ video.id = "videoBG"
 video.muted = true;
 video.autoplay = true;
 video.loop = true;
+video.playsinline = true;
 let w;
 let h;
 let url;

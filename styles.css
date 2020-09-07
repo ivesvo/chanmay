@@ -4660,6 +4660,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler-icon:focus{
   outline: none
+
 }
 
 @media (max-width: 575.98px) {
