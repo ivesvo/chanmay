@@ -11,6 +11,9 @@
   display: flex;
   flex-direction: column;
 }
+.social li{
+  margin-right: 20px;
+}
 
 .control {
   height: 100vh;
@@ -104,7 +107,7 @@ color: #e52328
   background-color: #2e348b;
   min-height: 90vh;
   display: flex;
-  background-image: url(src/cloud.jpg);
+  background-image: url(src/cloudcopy.jpg);
   background-size: cover;
 
   flex-direction: row;
@@ -252,6 +255,10 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-left: 0px;
+  }
+
+  button{
+    padding-left: 0px !important;
   }
 }
 
@@ -3499,8 +3506,9 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #fd5f00;
+  color: #7f7f7f;
   background-color: transparent;
+  font-size: 12px !important;
 }
 .btn-link:hover {
   color: #b14200;
