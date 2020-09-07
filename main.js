@@ -49,6 +49,7 @@ function load() {
         video.id = "videoBG"
         video.muted = true;
         video.autoplay = true;
+        video.loop = true;
         addSourceToVideo(video, 'src/chanmay.mp4', 'video/mp4');
         
         video.play()}
