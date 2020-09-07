@@ -4641,6 +4641,7 @@ input[type="button"].btn-block {
 .navbar-toggler:hover,
 .navbar-toggler:focus {
   text-decoration: none;
+  outline: none
 }
 .navbar-toggler:not(:disabled):not(.disabled) {
   cursor: pointer;

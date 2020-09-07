@@ -31,7 +31,10 @@ function readMore(name) {
 }
 var video = document.createElement('video');
 let videoBG = document.getElementById('vidDiv')
-
+video.id = "videoBG"
+video.muted = true;
+video.autoplay = true;
+video.loop = true;
 let w;
 let h;
 let url;
@@ -46,11 +49,9 @@ function load() {
     }
     console.log(w, h)
     if (w > 767) {videoBG.appendChild(video);
-        video.id = "videoBG"
-        video.muted = true;
-        video.autoplay = true;
-        video.loop = true;
         addSourceToVideo(video, 'src/chanmay.mp4', 'video/mp4');
+       
+       
         
         video.play()}
     else {url = 'https://images.unsplash.com/photo-1528606589862-7d68b7e3c95a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80'}
