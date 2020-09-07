@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
 }
-.social li{
+.social{
   margin-right: 20px;
 }
 
@@ -51,8 +51,13 @@
   color: gray;
 }
 
+.control h1{
+  display: none;
+
+}
+
 .mission {
-  /* background-color: #2e348b; */
+  background-color: #2e348b;
   padding-top: 5vh;
   min-height: 15vh;
   display: flex;
@@ -176,13 +181,6 @@ color: #e52328
   flex-direction: row;
 }
 
-.hehe1 {
-  background-color: yellow;
-}
-
-.hehe2 {
-  background-color: yellowgreen;
-}
 h1 {
   color: #222e5a !important;
   font-size: 60px;
@@ -225,6 +223,7 @@ h1 {
   .control {
     background: url("src/poster.jpg") !important;
     background-size: cover !important;
+  
   }
 
   .about-us .img-loaded {
@@ -248,6 +247,7 @@ h1 {
   .section {
     padding: 0rem 2rem;
   }
+
   .back-to-top{
     padding-top: 30px;
     display: flex;
@@ -259,6 +259,14 @@ h1 {
 
   button{
     padding-left: 0px !important;
+  }
+
+  .control h1{
+    display: block;
+    color: white !important;
+    padding: 20px;
+    align-self: flex-end;
+  
   }
 }
 
