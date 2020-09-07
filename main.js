@@ -1,18 +1,3 @@
-// function readMore(name) {
-//     let dots = document.querySelector(`.card[data-people="${name}"] .dots`);
-//     let moreText = document.querySelector(`.card[data-people="${name}"] .more`); 
-//     let btnText = document.querySelector(`.card[data-people="${name}"] .myBtn`);
-
-//     if (dots.style.display === "none") {
-//         dots.style.display = "inline";
-//         btnText.innerHTML = "Read more"; 
-//         moreText.style.display = "none";
-//       } else {
-//         dots.style.display = "none";
-//         btnText.innerHTML = "Read less"; 
-//         moreText.style.display = "inline";
-//       }
-// }
 
 function readMore(name) {
     var dots = document.getElementById(`dots-${name}`);
@@ -29,6 +14,12 @@ function readMore(name) {
         moreText.style.display = "inline";
     }
 }
+
+
+
+
+
+
 var video = document.createElement('video');
 let videoBG = document.getElementById('vidDiv')
 video.id = "videoBG"
@@ -73,3 +64,29 @@ function addSourceToVideo(element, src, type) {
 
 load()
 
+$(function(){
+    $(".container").html($(".corta").html()).show();
+})
+$('div.post-content').delegate("a", "click", function(e) {
+    e.preventDefault();
+    var div = $(this).closest('div');
+    var points = div.find('.points');
+    var complete = div.find('.completa').html();
+    var corta = div.find('.corta').html();
+    /*div.find('.corta').html(complete);
+    div.find('.completa').html(corta);*/
+    var $this = $(this);
+    if ($this.text() == 'read more') {
+        $(".container").hide().html($(".corta").html() +   $(".completa").html()).slideDown(500);
+        $this.text("read less");
+        points.hide();
+    } else {
+        $(".container").slideUp(500, function(){
+            $(this).html($(".corta").html()).slideDown(100);        
+            points.show();
+        })
+        $this.text("read more");
+
+    }
+
+});
