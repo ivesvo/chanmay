@@ -41,6 +41,10 @@ img{
 }
 .about-us {
   background-color: white;
+  
+  display: flex;
+  justify-content: center;
+
 }
 .intro {
   display: flex;
@@ -281,7 +285,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+   
   }
 
   .section {
