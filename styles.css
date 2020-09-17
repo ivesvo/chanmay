@@ -12,6 +12,23 @@ img{
   align-self: center;
 }
 
+.support{ 
+  padding-top:1.2rem}
+
+.featurette-divider{
+  margin: 3rem 0;
+}
+
+.featurette{
+
+  display:  inline
+}
+
+.bod{
+  background-color: white;
+}
+
+
 
 .language {
   font-size: 12px;
@@ -41,7 +58,7 @@ img{
 }
 .about-us {
   background-color: white;
-  
+  padding: 6rem 2rem !important; 
   display: flex;
   justify-content: center;
 
@@ -89,7 +106,12 @@ img{
 
 .mission .card .text-muted:hover{
 color: #e52328
+
 }
+
+
+
+
 .footer {
   background-color: #1a1a92 !important;
   color: darkgray;
@@ -216,9 +238,11 @@ button:hover {
   flex-direction: row;
   justify-content: center;
 }
-.team h4{
+.team h5, .team h4{
   margin-top: 20px;
 }
+
+
 .logo {
   padding: 1.2rem;
   display: flex;
@@ -4519,6 +4543,7 @@ input[type="button"].btn-block {
 }
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  margin: 0! important
 }
 .nav-tabs .nav-link {
   border: 1px solid transparent;
@@ -4553,7 +4578,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #fd5f00;
+  background-color: #e52328;
 }
 
 .nav-fill .nav-item {

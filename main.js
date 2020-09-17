@@ -90,3 +90,8 @@ $('div.post-content').delegate("a", "click", function(e) {
     }
 
 });
+
+$('#myTab a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  })
