@@ -204,6 +204,10 @@ button:hover {
   color: #1a1b92;
 }
 
+.designation{
+  font-size: 14px;
+}
+
 .logo img {
   margin-bottom: 20px;
 }
