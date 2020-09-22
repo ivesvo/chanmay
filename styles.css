@@ -42,6 +42,11 @@ img{
 .language-nav {
   font-size: 12px;
   display: flex !important;
+  flex-direction: flex-end;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0
+  
 }
 
 
@@ -254,6 +259,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  word-wrap:break-word
 }
 .team h5, .team h4{
   margin-top: 20px;
@@ -301,6 +307,16 @@ h1 {
     height: 100%;
   }
 }
+@media (max-width: 1024px) {
+  .nav-item{
+    margin-left: -10px;
+  }
+
+  .language-nav .nav-item{
+    margin-left: 38px
+  }
+
+}
 @media (max-width: 767px) {
   #videoBG {
     display: none;
@@ -309,6 +325,14 @@ h1 {
     background: url("src/mobilelanding.jpeg") !important;
     background-size: cover !important;
   
+  }
+  .nav-item{
+    margin-left: 20px !important;
+  }
+  .language-nav > .navbar-nav{
+    display: flex !important;
+    flex-direction: flex-start !important;
+    flex-wrap: nowrap !important
   }
 
   .about-us .img-loaded {
