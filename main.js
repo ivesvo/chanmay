@@ -41,7 +41,7 @@ function load() {
     }
     console.log(w, h)
     if (w > 767) {videoBG.appendChild(video);
-        addSourceToVideo(video, 'src/chanmay.mp4', 'video/mp4');
+        addSourceToVideo(video, 'src/chanmay1.mp4', 'video/mp4');
        
        
         
