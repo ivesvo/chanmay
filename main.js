@@ -1,25 +1,4 @@
 
-function readMore(name) {
-    var dots = document.getElementById(`dots-${name}`);
-    var moreText = document.getElementById(`more-${name}`);
-    var btnText = document.getElementById(`myBtn-${name}`);
-
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "More";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Less";
-        moreText.style.display = "inline";
-    }
-}
-
-
-
-
-
-
 var video = document.createElement('video');
 let videoBG = document.getElementById('vidDiv')
 video.id = "videoBG"
@@ -41,7 +20,7 @@ function load() {
     }
     console.log(w, h)
     if (w > 767) {videoBG.appendChild(video);
-        addSourceToVideo(video, 'src/chanmay1.mp4', 'video/mp4');
+        addSourceToVideo(video, '/src/chanmay1.mp4', 'video/mp4');
        
        
         
