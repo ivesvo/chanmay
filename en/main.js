@@ -1,4 +1,4 @@
-
+console.log("huhu")
 var video = document.createElement('video');
 let videoBG = document.getElementById('vidDiv')
 video.id = "videoBG"
@@ -20,12 +20,12 @@ function load() {
     }
     console.log(w, h)
     if (w > 767) {videoBG.appendChild(video);
-        addSourceToVideo(video, '/src/chanmay1.mp4', 'video/mp4');
+        addSourceToVideo(video, '../src/chanmay1.mp4', 'video/mp4');
        
        
         
         video.play()}
-    else {url = 'src/mobilelanding.jpg'}
+    else {url = '../src/mobilelanding.jpg'}
     document.getElementById('url').src = url;
 }
 
