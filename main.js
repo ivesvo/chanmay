@@ -46,7 +46,7 @@ function load() {
        
         
         video.play()}
-    else {url = 'https://images.unsplash.com/photo-1528606589862-7d68b7e3c95a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80'}
+    else {url = 'src/mobilelanding.jpg'}
     document.getElementById('url').src = url;
 }
 

@@ -32,12 +32,19 @@ img{
   font-size: 12px;
   display: flex;
   justify-content: flex-end;
+  color:#656565
+}
+
+.active{
+  border-bottom: 1px solid #656565
 }
 
 .language-nav {
   font-size: 12px;
-  display: flex;
+  display: flex !important;
 }
+
+
 .nav-item {
   margin-left: 30px;
 }
@@ -82,6 +89,7 @@ img{
   display: flex;
   justify-content: flex-end;
 }
+
 
 
 
