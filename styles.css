@@ -182,6 +182,12 @@ button:hover {
   overflow: hidden;
 }
 
+.sustainability .rounded-circle{
+  margin-top: 3rem;
+ 
+}
+
+
 .sustainability h2 {
   color: white;
 }
@@ -195,6 +201,7 @@ button:hover {
   display: flex;
   justify-content: center;
 }
+
 
 .brands {
   display: flex;
@@ -999,6 +1006,10 @@ pre code {
     width: 30vw;
     height: auto;
   }
+
+  .sustainability .rounded-circle{
+  margin-top: 0.8rem
+}
 }
 
 @media (min-width: 768px) {
