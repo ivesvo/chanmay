@@ -316,7 +316,7 @@ h1 {
     display: none;
   }
   .control {
-    background: url("src/mobilelanding.jpg") !important;
+    background: url("src/landing1.jpg") !important;
     background-size: cover !important;
   
   }
@@ -784,6 +784,7 @@ h6,
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
+  letter-spacing: 1.2px;
 }
 
 h1,
@@ -842,6 +843,7 @@ p {
   font-size: 4rem;
   font-weight: 300;
   line-height: 1.2;
+  letter-spacing: 1.2px;
 }
 
 .display-4 {
@@ -986,7 +988,7 @@ pre code {
     font-size: 1.5rem;
   }
   .display-3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .mission img {
     width: 30vw;
