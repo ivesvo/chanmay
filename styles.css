@@ -316,7 +316,7 @@ h1 {
     display: none;
   }
   .control {
-    background: url("src/landingjpg") !important;
+    background: url("src/landing.jpg") !important;
     background-size: cover !important;
   
   }
@@ -376,6 +376,7 @@ h1 {
     padding-bottom: 20px;
     margin-left: 0px
   }
+
   .display-3 {
     font-size: 2.8rem;
   }
