@@ -316,9 +316,8 @@ h1 {
     display: none;
   }
   .control {
-    background: url("src/landing.jpg") !important;
+    background: url("src/landing1.jpg") !important;
     background-size: cover !important;
-  
   }
   .nav-item{
     margin-left: 20px !important;
